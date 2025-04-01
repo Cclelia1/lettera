@@ -43,7 +43,6 @@ export function disegnaPunto({
   gamma = 0,
 }) {
   rect(x, y, 10);
-  fill("orange");
 }
 
 /**
