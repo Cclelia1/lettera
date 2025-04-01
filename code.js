@@ -43,6 +43,8 @@ export function disegnaPunto({
   gamma = 0,
 }) {
   ellipse(x, y, 100);
+  fill(noStroke);
+  fill("pink");
 }
 
 /**
