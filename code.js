@@ -42,9 +42,8 @@ export function disegnaPunto({
   beta = 0,
   gamma = 0,
 }) {
-  ellipse(x, y, 100);
-  fill(noStroke);
-  fill("pink");
+  rect(x, y, 10);
+  fill("orange");
 }
 
 /**
