@@ -43,8 +43,6 @@ export function disegnaPunto({
   gamma = 0,
 }) {
   ellipse(x, y, 100);
-  noStroke();
-  fill("orange");
 }
 
 /**
@@ -70,7 +68,7 @@ export function sotto(disegnaTesto) {
   background("deeppink");
 
   // [INFO] Rimuovi il commento per disegnare il testo
-  fill("white");
+  fill("blue");
   disegnaTesto();
 }
 
